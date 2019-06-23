@@ -39,6 +39,7 @@ def cos_sim(a, b):
 	length_d2 = math.sqrt(length_d2)
 
 	score = 0.0
+        cos = 0.0
 	for d in dic:
 		if d in dic2:
 			score += dic[d] * dic2[d]
